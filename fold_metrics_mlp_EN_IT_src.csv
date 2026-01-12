@@ -1,0 +1,6 @@
+side,repeat,outer_fold,rmse,mae,r2,best_params
+src,0,0,2.129670207358552,1.5475272463888121,0.02697167889512586,"{""hidden_layer_sizes"": [256], ""activation"": ""relu"", ""alpha"": 0.005704701395901251, ""learning_rate_init"": 0.00010482286604500454, ""batch_size"": 32}"
+src,0,1,1.858589234036915,1.4009977668267695,-0.019697250110419562,"{""hidden_layer_sizes"": [128, 64], ""activation"": ""relu"", ""alpha"": 1.0742441575715291e-06, ""learning_rate_init"": 0.002299253866505727, ""batch_size"": 32}"
+src,0,2,1.9627458462737895,1.5481497891138687,0.0778801011388196,"{""hidden_layer_sizes"": [256, 128], ""activation"": ""relu"", ""alpha"": 6.758573237946276e-05, ""learning_rate_init"": 0.00022587489256275194, ""batch_size"": 256}"
+src,0,3,1.988444283123229,1.4381209456972046,-0.0019662335704699885,"{""hidden_layer_sizes"": [128, 64], ""activation"": ""relu"", ""alpha"": 5.547303029943903e-06, ""learning_rate_init"": 0.0015905372045003875, ""batch_size"": 256}"
+src,0,4,1.9158307820609422,1.4883152023614634,0.13036877892512622,"{""hidden_layer_sizes"": [256, 128], ""activation"": ""relu"", ""alpha"": 6.603697332859199e-05, ""learning_rate_init"": 0.00022349643329469795, ""batch_size"": 256}"

@@ -1,0 +1,172 @@
+
+================================================================================
+GLOBAL CORRELATIONS
+================================================================================
+ pair    n  spearman_r   spearman_p  pearson_r_loghf_days  pearson_p_loghf
+en_es 1322    0.323143 1.651062e-33              0.278900     4.802133e-25
+en_it  955    0.082948 1.033470e-02              0.108256     8.054347e-04
+en_pt 1138    0.085544 3.878367e-03              0.077501     8.909892e-03
+
+================================================================================
+POS-WISE CORRELATIONS
+================================================================================
+ pair  pos   n  spearman_r   spearman_p  pearson_r_loghf_days  pearson_p_loghf
+en_es  adj 122    0.291909 1.104687e-03              0.238512     8.154090e-03
+en_es  adv  71    0.331972 4.679901e-03              0.408839     4.003709e-04
+en_es noun 955    0.300907 1.943981e-21              0.252502     2.345187e-15
+en_es verb 107    0.158453 1.030762e-01              0.143979     1.389899e-01
+en_it  adj 124    0.080586 3.736128e-01              0.119330     1.868128e-01
+en_it  adv  83    0.014139 8.990440e-01              0.171598     1.208642e-01
+en_it noun 575    0.046359 2.670687e-01              0.071830     8.527068e-02
+en_it verb 102    0.098041 3.269248e-01              0.151199     1.292781e-01
+en_pt  adj  96    0.169679 9.838466e-02              0.290772     4.052817e-03
+en_pt  adv  63    0.201904 1.125439e-01              0.134891     2.918601e-01
+en_pt noun 757    0.022107 5.436503e-01              0.014202     6.964467e-01
+en_pt verb 160    0.131794 9.666124e-02              0.193070     1.444188e-02
+
+================================================================================
+FREQUENCY-BIN CORRELATIONS
+================================================================================
+ pair  freq_bin   n  spearman_r   spearman_p  pearson_r_loghf_days  pearson_p_loghf
+en_es         0 335    0.324998 1.112422e-09              0.292881     4.740783e-08
+en_es         1 328    0.256744 2.461599e-06              0.204437     1.931354e-04
+en_es         2 332    0.324132 1.468845e-09              0.253865     2.797146e-06
+en_es         3 327    0.376959 1.759199e-12              0.353883     4.420711e-11
+en_it         0 243   -0.014219 8.254639e-01              0.015133     8.144491e-01
+en_it         1 235    0.064081 3.280201e-01              0.106293     1.040870e-01
+en_it         2 238    0.052719 4.181765e-01              0.058074     3.724170e-01
+en_it         3 239    0.236488 2.248591e-04              0.301516     2.055975e-06
+en_pt         0 289    0.142352 1.544221e-02              0.149385     1.099616e-02
+en_pt         1 291    0.085342 1.464425e-01              0.023585     6.886697e-01
+en_pt         2 276   -0.004387 9.421632e-01             -0.006033     9.205264e-01
+en_pt         3 282    0.109411 6.655446e-02              0.132440     2.615019e-02
+
+================================================================================
+PARTIAL CORRELATIONS (BINS)
+================================================================================
+ pair         bin_type  bin   n  partial_r_loghf            p
+en_es  src_session_bin    0 334         0.025221 6.460302e-01
+en_es  src_session_bin    1 328         0.037193 5.020556e-01
+en_es  src_session_bin    2 329         0.083905 1.288187e-01
+en_es  src_session_bin    3 331         0.287843 9.807413e-08
+en_es  tgt_session_bin    0 335         0.148968 6.302269e-03
+en_es  tgt_session_bin    1 326        -0.039359 4.788256e-01
+en_es  tgt_session_bin    2 330         0.132995 1.562512e-02
+en_es  tgt_session_bin    3 331         0.226788 3.115919e-05
+en_es      src_len_bin    0 365         0.161008 2.030966e-03
+en_es      src_len_bin    1 469         0.228561 5.644946e-07
+en_es      src_len_bin    2 160         0.123656 1.192656e-01
+en_es      src_len_bin    3 328         0.099382 7.226092e-02
+en_es      tgt_len_bin    0 455         0.157098 7.718664e-04
+en_es      tgt_len_bin    1 226         0.233541 3.993541e-04
+en_es      tgt_len_bin    2 347         0.117106 2.917715e-02
+en_es      tgt_len_bin    3 294         0.089719 1.248068e-01
+en_es concreteness_bin    0 331         0.173771 1.505022e-03
+en_es concreteness_bin    1 330         0.148812 6.766228e-03
+en_es concreteness_bin    2 331         0.046001 4.041749e-01
+en_es concreteness_bin    3 330         0.254208 2.904459e-06
+en_es    frequency_bin    0 335         0.152655 5.109902e-03
+en_es    frequency_bin    1 328         0.104574 5.850682e-02
+en_es    frequency_bin    2 332         0.220461 5.082330e-05
+en_es    frequency_bin    3 327         0.165623 2.662020e-03
+en_it  src_session_bin    0 241         0.030817 6.340532e-01
+en_it  src_session_bin    1 238        -0.021142 7.455733e-01
+en_it  src_session_bin    2 238        -0.015917 8.070202e-01
+en_it  src_session_bin    3 238         0.275410 1.631849e-05
+en_it  tgt_session_bin    0 257         0.119012 5.672945e-02
+en_it  tgt_session_bin    1 224         0.086925 1.949217e-01
+en_it  tgt_session_bin    2 240         0.195630 2.332014e-03
+en_it  tgt_session_bin    3 234         0.123029 6.023883e-02
+en_it      src_len_bin    0 318         0.129461 2.092908e-02
+en_it      src_len_bin    1 186         0.082678 2.619059e-01
+en_it      src_len_bin    2 264         0.059241 3.376438e-01
+en_it      src_len_bin    3 187        -0.025532 7.286949e-01
+en_it      tgt_len_bin    0 311         0.116103 4.073820e-02
+en_it      tgt_len_bin    1 172         0.044212 5.646921e-01
+en_it      tgt_len_bin    2 276         0.000876 9.884467e-01
+en_it      tgt_len_bin    3 196         0.115398 1.072621e-01
+en_it concreteness_bin    0 241         0.109946 8.854562e-02
+en_it concreteness_bin    1 240        -0.006174 9.241937e-01
+en_it concreteness_bin    2 235         0.186324 4.154338e-03
+en_it concreteness_bin    3 239        -0.037494 5.640672e-01
+en_it    frequency_bin    0 243        -0.034499 5.925296e-01
+en_it    frequency_bin    1 235         0.092251 1.586459e-01
+en_it    frequency_bin    2 238         0.038451 5.550014e-01
+en_it    frequency_bin    3 239         0.226102 4.269173e-04
+en_pt  src_session_bin    0 296        -0.111784 5.471962e-02
+en_pt  src_session_bin    1 273        -0.035054 5.641421e-01
+en_pt  src_session_bin    2 284         0.181925 2.083525e-03
+en_pt  src_session_bin    3 285         0.044344 4.558534e-01
+en_pt  tgt_session_bin    0 306        -0.094823 9.778715e-02
+en_pt  tgt_session_bin    1 273         0.056025 3.564441e-01
+en_pt  tgt_session_bin    2 275        -0.012552 8.358410e-01
+en_pt  tgt_session_bin    3 284         0.159537 7.060452e-03
+en_pt      src_len_bin    0 363         0.066500 2.062180e-01
+en_pt      src_len_bin    1 212        -0.016290 8.135926e-01
+en_pt      src_len_bin    2 328        -0.032640 5.558376e-01
+en_pt      src_len_bin    3 235        -0.021116 7.474438e-01
+en_pt      tgt_len_bin    0 448        -0.006085 8.978044e-01
+en_pt      tgt_len_bin    1 194         0.040958 5.706907e-01
+en_pt      tgt_len_bin    2 294        -0.024519 6.754464e-01
+en_pt      tgt_len_bin    3 202         0.011736 8.683388e-01
+en_pt concreteness_bin    0 288        -0.069818 2.375485e-01
+en_pt concreteness_bin    1 282        -0.019464 7.448563e-01
+en_pt concreteness_bin    2 286        -0.005943 9.202919e-01
+en_pt concreteness_bin    3 282         0.083369 1.626494e-01
+en_pt    frequency_bin    0 289         0.026686 6.514257e-01
+en_pt    frequency_bin    1 291        -0.032853 5.767286e-01
+en_pt    frequency_bin    2 276        -0.064777 2.835414e-01
+en_pt    frequency_bin    3 282         0.043488 4.669899e-01
+
+================================================================================
+PARTIAL CORRELATIONS (POS)
+================================================================================
+ pair  pos   n  partial_r_loghf        p
+en_es  adj 122         0.122092 0.180349
+en_es  adv  71         0.293550 0.012970
+en_es noun 955         0.121940 0.000158
+en_es verb 107         0.118722 0.223239
+en_it  adj 124         0.008642 0.924108
+en_it  adv  83        -0.091876 0.408756
+en_it noun 575         0.030952 0.458829
+en_it verb 102         0.031205 0.755538
+en_pt  adj  96         0.098596 0.339217
+en_pt  adv  63        -0.033363 0.795186
+en_pt noun 757        -0.050853 0.162188
+en_pt verb 160         0.105760 0.183182
+
+================================================================================
+PARTIAL CORRELATIONS (SEMANTIC FIELDS)
+================================================================================
+ pair semantic_field   n  partial_r_loghf        p
+en_es            act 103         0.193306 0.050419
+en_es            all 216         0.306103 0.000005
+en_es       artifact 125        -0.068510 0.447754
+en_es      attribute  54        -0.042322 0.761235
+en_es      cognition  93         0.114399 0.274881
+en_es  communication 109         0.131659 0.172360
+en_es          group  84         0.334910 0.001846
+en_es       location  44         0.141869 0.358295
+en_es         person  76         0.010243 0.930018
+en_es          state  46         0.145468 0.334742
+en_es           time  58         0.210996 0.111863
+en_it            act  59         0.057688 0.664293
+en_it            all 235         0.060266 0.357689
+en_it       artifact  95        -0.118690 0.251967
+en_it      cognition  53        -0.116458 0.406291
+en_it  communication  70         0.189482 0.116173
+en_it          group  45         0.195267 0.198637
+en_it       location  44         0.106921 0.489690
+en_it         person  46        -0.287609 0.052605
+en_it           time  48         0.611641 0.000004
+en_pt            act  61         0.145969 0.261653
+en_pt            all 179         0.199803 0.007328
+en_pt       artifact 107         0.121987 0.210680
+en_pt      attribute  35        -0.388693 0.021021
+en_pt      cognition  82        -0.020346 0.856028
+en_pt  communication 104         0.075196 0.448056
+en_pt          group  62        -0.224982 0.078735
+en_pt       location  47        -0.031844 0.831726
+en_pt         person  62        -0.320870 0.010999
+en_pt          state  33        -0.427093 0.013179
+en_pt           time  56        -0.248665 0.064601
