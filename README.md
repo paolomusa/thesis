@@ -21,17 +21,6 @@ The goal is to allow the evaluation committee to:
 
 ---
 
-## Note about missing figure in the thesis manuscript
-
-The file `partial_correlations_numeric_table.png` is a summary image that was meant to be inserted into the thesis manuscript in **Results, subsection 4.1.4 “Partial Correlations”**, where there is currently still a text placeholder. Unfortunately, due to an error, this figure was not included in the final version of the document.
-
-The image contains a table summarizing the results of the Pearson partial correlations among the analyzed numeric features:  
-- cells containing a number indicate a statistically significant Pearson partial correlation (**p-value < 0.05**),  
-- while blank cells indicate non-significant correlations.  
-
-I sincerely apologize for this inconvenience and thank the evaluation committee for their understanding.
-
----
 
 ## Repository Structure Overview
 
